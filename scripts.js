@@ -2,17 +2,11 @@
 console.log('These pretzels are making me thirsty!')
 
 const display = document.getElementById('display')
-const text = 'Dive Bar'
+const text1 = 'Dive Bar'
+const text2 = 'of the Month'
 let currentFace = 'Courgette'
 
 const showDisplayText = (input) => {
-
-  display.innerText = input.toUpperCase()
-  input[1] == 'o' ?
-  display.style.fontFamily = currentFace :
-  display.style.fontFamily = 'Molle' ;
-
-  
+  display.style.fontFamily = input
 }
 
-showDisplayText(text)
