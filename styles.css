@@ -12,7 +12,13 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+  color: grey;
+}
+
+a {
+  color: firebrick;
+  text-decoration: none;
 }
 
 h1, h1:after {
@@ -24,6 +30,10 @@ h3 {
   font-size: 1rem;
   margin-top: 1rem;
   text-align: center;
+}
+
+footer {
+  font-size: 0.7rem;
 }
 
 #container {
@@ -43,7 +53,6 @@ h3 {
   flex-flow: row nowrap;
   justify-content: inherit;
   align-items: inherit;
-  color: grey;
 }
 
 .type {
